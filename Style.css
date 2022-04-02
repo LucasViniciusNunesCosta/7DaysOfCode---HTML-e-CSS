@@ -1,3 +1,7 @@
+:root{
+    --text-color:#667085;
+    --main-color:#8E2424;
+}
 body{
     font-family: 'Inter', sans-serif;
 }
@@ -17,8 +21,7 @@ body{
 }
 .nav .logo a{
     text-decoration: none;
-    color: #3A404E;
-    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
     font-size: 1rem;
 }
 .nav .links ul{
@@ -30,10 +33,10 @@ body{
 .nav .links li a{
     text-decoration: none;
     margin-right: 1rem;
-    color: #667085;
+    color: var(--text-color);
 }
 .buttons button{
-    color: #667085;
+    color: var(--text-color);
     border-radius: 0.5rem;
     border: none;
     padding: 0.8rem 1rem;
@@ -41,6 +44,24 @@ body{
     background: none;
 }
 .buttons button:nth-child(2){
-    background-color: #8E2424;
+    background-color: var(--main-color);
     color: #FFF;
+}
+.about{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 6rem 0;
+}
+.about span{
+    color: var(--main-color);
+}
+.about h1{
+    font-size: 3rem;
+}
+.about p{
+    color: var(--text-color);
+    text-align: center;
+    font-size: 1.25rem;
 }
