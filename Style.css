@@ -87,6 +87,7 @@ body {
     gap: 4rem;
     text-align: center;
     align-items: flex-start;
+    width: 100%;
 }
 .metricas-container .metrica span {
     font-size: 3.75rem;
@@ -126,35 +127,87 @@ body {
     font-size: 1.25rem;
     color: #667085;
 }
+
+.procurando-talentos img{
+    width: 90%;
+}
+
 .oportunidades{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .oportunidades .container-vagas{
-    width: 80%;
+    width: 70%;
+    padding-top: 2rem;
 }
+
 .oportunidades .area-atuacao{
     color: #101828;
     font-size: 1.25rem;
     font-weight: 500;
     align-self: flex-start;
 }
+
 .oportunidades .vaga{
     padding: 1.5rem 1.5rem 1.75rem 1.5rem;
     border: solid 1px #EAECF0;
     border-radius: 1rem;
     margin: 2rem 0;
 }
+
 .oportunidades .vaga .titulo-vaga{
     font-size: 1.125rem;
     font-weight: 500;
     color: #101828;
 }
+
 .oportunidades .vaga .informacoes-vaga{
     font-size: 1rem;
     color: #667085;
     padding: 1rem 0;
     display: flex;
     gap: 20px;
+}
+.depoimentos{
+    padding: 0 0 6rem 0;
+}
+.depoimentos .depoimentos-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0;
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: rgba(196, 25, 25, 0.03);
+    gap: 1rem;
+}
+.depoimentos .depoimentos-content .subhead{
+    color: var(--main-color);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+.depoimentos .depoimentos-content .quote{
+    font-size: 2.25rem;
+    font-weight: 500;
+    max-width: 90%;
+    text-align: center;
+}
+
+.depoimentos .depoimentos-content .avatar-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 0.5rem;
+}
+.depoimentos .depoimentos-content .avatar-text .nome{
+    font-size: 1rem;
+    color: #101828;
+    font-weight: 500;
+}
+.depoimentos .depoimentos-content .avatar-text .funcao{
+    font-size: 0.875rem;
+    color: var(--text-color);
 }
